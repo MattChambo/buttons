@@ -3,3 +3,78 @@
 }*/
 
 /* Comment goes here */
+
+button {
+	display: block;
+	margin-bottom: 40px;
+}
+
+#one {
+	background-color: #2ecc71;
+	padding: 5px 15px;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+}
+
+#two {
+	background-color: #3498db;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	border-bottom: 1px solid #2980b9;
+	cursor: pointer;
+}
+
+#three {
+	background-color: #e74c3c;
+	border: none;
+	color: white;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 4px;
+	border-top: 1px solid #eb8d84;
+	border-bottom: 1px solid #c0392b;
+	text-shadow: 0 1px 0 rgba(0,0,0,.3);
+}
+
+#four {
+	outline: none;
+	color: white;
+	border: 1px solid #2980b9;
+	border-radius: 10px;
+	padding: 10px 15px;
+	cursor: pointer;
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(32,124,202,1) 59%, rgba(41,137,216,1) 68%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 59%,rgba(41,137,216,1) 68%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 59%,rgba(41,137,216,1) 68%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	transition: all .2s;
+
+}
+
+#four:hover {
+	border-radius: 2px;
+	color: black;
+}
+
+#five {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+background: rgb(254,255,232); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(254,255,232,1) 0%, rgba(214,219,191,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(254,255,232,1) 0%,rgba(214,219,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+border: none;
+padding: 5px 10px;
+border-radius: 10px;
+text-shadow: 0 -1px 2px rgba(0,0,0,.3);
+}
+
+#five i {
+	color: #333333;
+}
+
+
+
